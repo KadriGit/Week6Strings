@@ -1,5 +1,5 @@
 ﻿
-string myString = "Hello World!";
+Console.WriteLine("Enter your first name: ");
+string userName = Console.ReadLine();
 
-int theLenghtOfMyString = myString.Length;
-
+Console.WriteLine(userName.Length);
